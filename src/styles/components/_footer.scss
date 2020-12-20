@@ -1,0 +1,14 @@
+/* Footer */
+.footer__section {
+    padding: 1rem 0 15rem 0;
+    text-align: center;
+    color: $base-blue;
+}
+
+.footer__subtitle::after {
+    font-family: FontAwesome;
+    content: "\f111";
+    font-size: .5rem;
+    padding-left: .1rem;
+    color: $color-accent;
+}

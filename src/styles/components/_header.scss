@@ -1,0 +1,38 @@
+
+
+/* Header */
+.header__section {
+    background: $color-light-gray;
+    color: #fff;
+    padding: 8rem 0;
+  }
+  
+.header__title {
+    font-size: 3.2rem;
+    margin: 0;
+    padding: 11rem 0 1rem 6.2rem;
+    color: #fff;
+    font-size: 4.1rem;
+}
+
+.header__title::after {
+    font-family: FontAwesome;
+    content: "\f111";
+    font-size: 1.2rem;
+    padding-left: .3rem;
+    color: $color-accent;
+}
+  
+.header__subtitle {
+    color: #fff;
+    font-size: 3.0rem;
+
+    margin: 0;
+    padding: 1.5rem 0 0rem 12.2rem;
+}
+  
+.container__header {
+    max-width: 110rem;
+    margin: 0 auto;
+    margin-top: 4.5rem;
+}

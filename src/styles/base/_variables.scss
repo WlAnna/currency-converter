@@ -1,0 +1,20 @@
+$mobile: 94rem;
+$desktop: 45rem;
+$color-light-gray: #37517e;
+$color-outline-light: #d3d5d8;
+$color-outline-dark: #2E4369;
+$color-accent: #00b9ff;
+$base-blue: #2E4369;
+$base-gray: #F3F6F8;
+
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}

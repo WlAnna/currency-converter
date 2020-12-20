@@ -1,0 +1,31 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Open sans", Arial, sans-serif;
+    font-size: 1.6rem;
+    background-color: $base-gray;
+}
+
+h1 {
+    color: black; 
+}
+
+.container {
+    max-width: 110rem;
+    margin: 0 auto;
+}
+
+.icon {
+    font-size: 3.1rem;
+    color: $base-blue;
+    margin: 5rem 2rem 0rem 2rem ;
+}
